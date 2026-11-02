@@ -1,14 +1,13 @@
 # Continuous Depth Batching (CDB) for Looped Language Models
 [![arXiv](https://img.shields.io/badge/arXiv-2608.09444-b31b1b.svg)](https://arxiv.org/abs/2608.09444)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.11.0-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)](https://kschwethelm.github.io/continuous-depth-batching/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 This repository contains our [paper's](https://arxiv.org/abs/2608.09444) implementation of Continuous Depth Batching (CDB), a method for efficient inference with depth-adaptive looped language models.
 It includes the core inference code, workload and evaluation utilities, and scripts for reproducing the experimental results.
 
-> [!NOTE]
-> This codebase is a research implementation of CDB for reproducing the paper's results, not a full serving engine.
-> We are also developing [loop-sglang](https://github.com/kschwethelm/loop-sglang), a lightweight serving engine for looped LMs with CDB support.
+> [!WARNING]
+> The backend code will soon be replaced by our much faster implementation at [loop-sglang](https://github.com/kschwethelm/loop-sglang).
 
 ## Scope
 
